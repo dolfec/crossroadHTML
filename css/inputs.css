@@ -1,0 +1,65 @@
+input[type=text],
+input[type=numer],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    border-color: transparent;
+    padding: 8px;
+    height: 26px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    background: #F3F6F8;
+    border-radius: 4px;
+}
+
+input[type=text]::-webkit-input-placeholder, input[type=numer]::-webkit-input-placeholder, input[type=email]::-webkit-input-placeholder, input[type=password]::-webkit-input-placeholder  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+input[type=text]::-moz-placeholder, input[type=numer]::-moz-placeholder, input[type=email]::-moz-placeholder, input[type=password]::-moz-placeholder  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+input[type=text]:-ms-input-placeholder, input[type=numer]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder, input[type=password]:-ms-input-placeholder  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+input[type=text]::-ms-input-placeholder, input[type=numer]::-ms-input-placeholder, input[type=email]::-ms-input-placeholder, input[type=password]::-ms-input-placeholder  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+input[type=text]::placeholder ,
+input[type=numer]::placeholder ,
+input[type=email]::placeholder ,
+input[type=password]::placeholder  {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    min-width: auto !important;
+	background-color: #ffffff !important;
+}
+
+body.openedModal {
+    overflow: hidden;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6;
+	border-radius: 2px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 4px;
+    height: 4px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 0;
+	background-color: #D7D7D7;
+}
+
+.mobileElemet {
+    display: none !important;
+}

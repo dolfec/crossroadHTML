@@ -1,0 +1,73 @@
+.slider_1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  min-height: 320px;
+  max-height: 320px;
+}
+
+.slider_1 .dots {
+  opacity: 0;
+  cursor: pointer;
+  margin-top: 300px;
+  width: 0;
+}
+
+.slider_1 .dots_label {
+  display: inline-block;
+  z-index: 2;
+  cursor: pointer;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+  width: 11.14px;
+  height: 7px;
+  background: #000000;
+  border-radius: 4px;
+}
+
+.slider_1 .dots:checked + label{
+  width: 18.57px;
+  height: 7px;
+  background: #009900;
+  border-radius: 4px;
+}
+
+
+.slider_1 .slide {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+  opacity: 1;
+}
+
+.slider_1 .dots:checked ~ .slide {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.slider_1 .dots:checked + label + .slide {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+

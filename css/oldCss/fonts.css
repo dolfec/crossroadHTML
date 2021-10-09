@@ -1,0 +1,23 @@
+@import "font-awesome.css";
+
+@font-face {
+    font-family: 'DroidSans';
+    src: url('../fonts/droidsans-bold-webfont.eot');
+    src: local('Ð²Â˜Ñ”'), url('../fonts/droidsans-bold-webfont.woff') format('woff'), url('../fonts/droidsans-bold-webfont.ttf') format('truetype'), url('../fonts/droidsans-bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSans';
+    src: url('../fonts/droidsans-webfont.eot');
+    src: local('Ð²Â˜Ñ”'), url('../fonts/droidsans-webfont.woff') format('woff'), url('../fonts/droidsans-webfont.ttf') format('truetype'), url('../fonts/droidsans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'arnamu';
+	src: url('../fonts/arnamu.eot');
+	src: local('arnamu'), url('../fonts/arnamu.woff') format('woff'), url('../fonts/arnamu.ttf') format('truetype');
+}

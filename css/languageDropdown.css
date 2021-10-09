@@ -1,0 +1,118 @@
+
+.language {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.language .language-entered {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* .language .language-entered::before { */
+    /* content: "";
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 7px);
+    width: 16px;
+    height: 14px;
+    background-image: url(./../images/icons/iconDownBlack.svg);
+    object-fit: cover;
+    transition: transform, background-image 0.7s ease-in-out;
+} */
+
+.language .language-entered .flag {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.language-body {
+    display: none;
+}
+
+.language:hover > .language-entered {
+    color: #009900;
+}
+
+.language:hover > .language-body {
+    position: absolute;
+    display: block;
+    top: 0;
+    z-index: 1;
+}
+
+.language .language-body .language-body-content {
+    position: relative;
+    margin-top: 30px;
+    width: 267px;
+    background: #FFFFFF;
+    border: 2px solid #9A9CAB;
+    border-radius: 4px;
+    padding: 36px 16px 16px 16px;
+}
+
+.language .language-body .language-body-content::before {
+    content: "";
+    background-image: url("./../images/icons/arrow.png");
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 6;
+}
+
+.language .language-body .language-body-content .title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.language .language-list {
+    list-style: none;
+}
+
+.language .language-list .language-list-item {
+    padding: 16px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.language .language-list .language-list-item .flag {
+    margin-right: 9px;
+}
+
+.language .language-list .language-list-item:not(:last-child) {
+    border-bottom: 2px solid #9A9CAB;
+}

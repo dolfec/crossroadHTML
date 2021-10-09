@@ -1,0 +1,141 @@
+.admin_template .filters_list > ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.admin_template .filters_list > ul > li > p{
+	margin: 0;
+	padding: 8px 10px;
+	background: #6ea291;
+    font-size: 12px;
+	color: #fff;
+    border: none;
+}
+.admin_template .filters_list > ul > li{
+	padding: 0 0 5px;
+}
+.admin_template .filters_list > ul > li > p > i{
+	cursor: pointer;
+}
+.admin_template .filters_list > ul > li > p > i:after{
+	margin-right: 5px;
+	content: "\f067";
+}
+.admin_template .filters_list > ul > li.active > p > i:after{
+	content: "\f068";
+}
+.admin_template .filters_list > ul > li:not(.active) > ul{
+	display: none;
+}
+.admin_template .filters_list > ul > li > ul{
+	margin: 0;
+	padding: 5px;
+	list-style: none;
+	border: solid #6ea291 1px;
+	border-top: none;
+}
+.admin_template .filters_list > ul > li > ul > li{
+	padding: 5px;
+}
+
+.admin_template .category_filters{
+	padding: 10px;
+	background: #efefef;
+}
+.admin_template .category_filters button{
+	padding: 2px 4px;
+	font-size: 11px;
+}
+.admin_template .category_filters > div > div{
+	position: relative;
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 20px;
+	background: #fff;
+	box-sizing: border-box;
+	display: table;
+}
+.admin_template .category_filters .filter:not(.toggled){
+	padding: 10px;
+}
+.admin_template .category_filters .filter:not(.toggled) > div:not(.title){
+	display: none;
+}
+.admin_template .category_filters .filter:not(.toggled) > div.title{
+	display: block;
+}
+.admin_template .category_filters .filter:not(.toggled) > div.title p{
+	display: none;
+}
+.admin_template .category_filters .filter:not(.toggled) > div.title input{
+	border: none;
+}
+.admin_template .category_filters .actions{
+	position: absolute;
+	top: 14px;
+    right: 14px;
+	z-index: 1;
+}
+.admin_template .category_filters .actions i{
+	margin: 0 0 0 5px;
+	cursor: pointer;
+}
+.admin_template .category_filters .actions .toggle:after{
+	content: "\f065";
+}
+.admin_template .category_filters .toggled .actions .toggle:after{
+	content: "\f066";
+}
+.admin_template .category_filters .actions .remove:after{
+	content: "\f057";
+}
+.admin_template .category_filters .sort:after,
+.admin_template .category_filters .sort2:after{
+	content: "\f0c9";
+	cursor: move !important;
+}
+.admin_template .category_filters > div > div > div{
+	display: table-cell;
+}
+.admin_template .category_filters > div > div > div select,
+.admin_template .category_filters > div > div > div input{
+	vertical-align: middle;
+}
+.admin_template .category_filters > div > div > div input.hidden{
+	position: fixed;
+}
+.admin_template .category_filters > div > div > div.title,
+.admin_template .category_filters > div > div > div.append{
+	width: 200px;
+}
+.admin_template .category_filters > div > div > div.title input,
+.admin_template .category_filters > div > div > div.append input{
+	width: 100%;
+	padding: 2px 4px;
+	box-sizing: border-box;
+}
+.admin_template .category_filters select,
+.admin_template .category_filters .chosen-container{
+	width: 100% !important;
+}
+.admin_template .category_filters .settings > div{
+	position: relative;
+	margin-bottom: 10px;
+}
+.admin_template .category_filters .settings > div p{
+	position: absolute;
+	top: 3px;
+    right: 101%;
+	white-space: nowrap;
+}
+.admin_template .category_filters .settings .options div{
+	margin: 0 0 10px;
+}
+.admin_template .category_filters .settings .options div input{
+	padding: 2px 4px;
+	font-size: 11px;
+}
+.admin_template .category_filters .settings .options div i{
+	margin: 0 0 0 5px;
+	cursor: pointer;
+}

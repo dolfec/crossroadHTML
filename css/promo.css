@@ -1,0 +1,48 @@
+.promo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+}
+
+.promo .promo-form {
+    width: 340px;
+    padding: 20px;
+    background: #F3F6F8;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+.promo .promo-form .promo-form-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 26px;
+    text-align: center;
+    color: #009900;
+    margin-bottom: 16px;
+}
+
+.promo .promo-form .promo-form-description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.promo .promo-form input {
+    margin: 26px 0 16px 0;
+    background: #FFFFFF;
+    border: 1px solid #F3F6F8;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px 10px;
+    height: auto;
+}

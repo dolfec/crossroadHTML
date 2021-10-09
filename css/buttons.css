@@ -1,0 +1,63 @@
+.app-btn {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #FFFFFF;
+    background: #009900;
+    border-radius: 4px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 13px 12px;
+    border: 1px solid #009900;
+    position: relative;
+}
+
+.app-btn .rightIcon {
+    position: absolute;
+    right: 12px;
+    top: 13px;
+}
+
+.app-dropdown {
+    position: relative;
+    padding-right: 40px;
+}
+
+.app-dropdown  .icon,
+.app-dropdown  .iconHovering
+{
+    margin: 0 5px 0 0;
+}
+
+.app-dropdown  .iconHovering {
+    display: none;
+}
+
+.app-dropdown::before {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 7px);
+    width: 16px;
+    height: 14px;
+    background-image: url(./../images/icons/iconDown.svg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: background-image 0.7s ease-in-out, -webkit-transform;
+    transition: background-image 0.7s ease-in-out, -webkit-transform;
+    -o-transition: transform, background-image 0.7s ease-in-out;
+    transition: transform, background-image 0.7s ease-in-out;
+    transition: transform, background-image 0.7s ease-in-out, -webkit-transform;
+}

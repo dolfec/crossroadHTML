@@ -1,0 +1,46 @@
+
+@media (max-width: 768px) {
+    .mobileElemet {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    
+    .header .header-top {
+        display: none;
+    }
+
+    .header .header-middle .logo {
+        display: none;
+    }
+
+    .header .header-middle .account-part {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        padding: 20px 10px;
+    }
+
+    .header-middle .account-part .account-list .account-list-item:not(:first-child) {
+        margin-left: 0px;
+    }
+
+    .header .header-middle .account-part .account-list {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .promo .promo-form {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1240px) {
+    .header-bottom nav{
+        width: 1240px;
+    }
+}
